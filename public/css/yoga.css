@@ -1,0 +1,55 @@
+.form {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    padding: auto;
+    border: 1px;
+    border-color: aliceblue;
+    margin-left: 25%;
+}
+
+#form1 {
+    padding: 10%;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+.name,
+.mbl,
+.email,
+.dob {
+    width: 50%;
+    height: 30px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px 1px rgb(218, 249, 135);
+    background-color: #fff;
+    border-color: white;
+}
+
+.session {
+    margin-left: 25%;
+}
+
+.submit {
+    width: 25%;
+    height: 40px;
+    border-radius: 5%;
+    font-size: large;
+    font-family: sans-serif;
+    color: black;
+    background-color: rgb(93, 176, 239);
+    padding: auto;
+    cursor: pointer;
+    margin-left: 40%;
+}
+
+:placeholder-shown {
+    margin-left: 5px;
+    padding: 2px;
+}
+
+body {
+    background-image: url("/Images/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

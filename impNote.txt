@@ -1,0 +1,9 @@
+In app.js there is one variable DATABASE_URL in url i use "mongodb://0.0.0.0:27017" instead of "mongodb://loclhost:27017"
+in case connection error occurred please chnage it to "mongodb://loclhost:27017"
+
+
+/* 
+
+for mobile number and mail id I used validation unique so for every time you have to provide unique for these fields
+
+ */

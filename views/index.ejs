@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmission form</title>
+    <link rel="stylesheet" href="/css/yoga.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
+</head>
+
+<body bgcolor="green">
+    <div class="form">
+        <h1 style="padding: 15px ;font-family:sans-serif;">Online Addmission for Yoga <br>Classes</h1>
+        <img src="/Images/img.png" alt="img" style="width:150px; height:150px; margin-left: 75%;margin-top: -100px;">
+        <hr style="color:grey ;">
+        <form action="#" id="form1">
+            Name : <input type="text" placeholder="FullName" class="name" id="name" required="required">
+            <br><br><br> Email: <input type="email" id="email" placeholder="xyz@gmail.com" class="email">
+            <br><br><br> Mobile No : <input type="text" id="mobile-no" required="required" maxlength="10" minlength="10" placeholder="mobile number" class="mbl">
+            <br><br><br> Gender: <input type="radio" id="male" name="gender" value="Male" class="gender">Male
+            <input type="radio" id="female" name="gender" value="Female" class="gender">Female
+
+            <br><br><br> Enter the Age: <input type="text" id="age" placeholder="Age" class="dob"  >
+
+            <br><br><br>
+            <hr>
+
+            <br> Schedule Preference : <br> <input type="checkbox" id="s1" value="Morning Session - 6:00AM to 7:00AM" name="Morning Session" class="session">
+            <label for="Morning Session">Morning Session - 6:00AM to 7:00AM</label><br>
+            <input type="checkbox" id="s2" name="Morning Session" value="Morning Session - 7:00AM to 8:00PM" class="session">
+            <label for="Morning Session">Morning Session - 7:00AM to 8:00PM</label><br>
+
+            <input type="checkbox" id="s3" value="Afternoon Session - 8:00AM to 9:00AM" name=" Morning Session" class="session">
+            <label for="Morning Session">Afternoon Session - 8:00AM to 9:00AM</label><br>
+
+            <input type="checkbox" id="s4" value="Evening Session - 5:00PM to 6:00PM" name="Evening Session" class="session">
+            <label for="Evening Session">Evening Session - 5:00PM to 6:00PM</label><br>
+
+            <br><br> Monthly Fee is : <input type="radio" id="fee" name="fees" value="Monthly fees" class="fees">MonthlyFees : 500/-rs
+
+            <br><br><br><br><br>
+
+            <input type="submit" id="submit" class="submit">
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+
+    <script src="/javascript/yoga.js">
+    </script>
+
+</body>
+
+</html>
